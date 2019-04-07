@@ -1,3 +1,6 @@
+#ifndef MATRIX_H
+#define MATRIX_H
+
 #include <iostream>
 #include <vector>
 #include <utility>
@@ -10,12 +13,15 @@ public:
     Matrix(const int row, const int col);
     Matrix(const std::vector<double> &vector);
     std::pair<int, int> getSize() const;
-    Matrix operator+(Matrix &right) const;
-    Matrix operator-(Matrix &right) const;
-    Matrix operator*(Matrix &right) const;
-    Matrix operator*(std::vector<double> &right) const;
+    Matrix operator+(Matrix right) const;
+    Matrix operator-(Matrix right) const;
+    Matrix operator*(Matrix right) const;
+    Matrix operator*(std::vector<double> right) const;
     Matrix operator*(const double value) const;
     Matrix operator=(Matrix right);
     std::vector<double> &operator[](const int index);
+    Matrix transpose();
     void print() const;
 };
+
+#endif

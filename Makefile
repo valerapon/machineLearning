@@ -1,2 +1,2 @@
 install:
-		g++ main.cpp Matrix.cpp -o main -g -Wall -Werror
+		g++ main.cpp Matrix.cpp Neuron.cpp  -g -Wall -Werror -o main
