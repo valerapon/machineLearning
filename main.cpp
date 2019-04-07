@@ -2,14 +2,19 @@
 #include "Matrix.h"
 
 int main() {
-    Matrix m(5, 5);
-    for (int i = 0; i < 5; ++i) {
-        for (int j = 0; j < 5; ++j) {
-            m[i][j] = i * j;
+    int row = 0, col = 0;
+    std::cin >> row >> col; 
+    Matrix m(row, col);
+    for (int i = 0; i < row; ++i) {
+        for (int j = 0; j < col; ++j) {
+            m[i][j] = i + j;
         }
     }
+    std::vector<double> vec;
+    vec.resize(col, 1);
+    Matrix q = m * vec;
+    m = m * 2;
     m.print();
-    m = m * m;
-    m.print();
+    q.print();
     return 0;
 }
