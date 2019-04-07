@@ -22,3 +22,6 @@ x test:
 ### Output format:  
 vector y:  
 0.8 0.7 (for example)  
+
+### Addition information:
+In "tmp" folder locate compiled file "main" and example of input data "input.txt"  
