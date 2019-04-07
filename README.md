@@ -15,7 +15,6 @@ y vectors:
 00  
 01  
 10  
-11  
 x test:  
 1 1 1 1  
   
