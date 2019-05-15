@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Matrix.h"
-#include "Neuron.h"
+#include "headers/Matrix.h"
+#include "headers/Neuron.h"
 
 int main() {
     int vCount, vSizeX, vSizeY;

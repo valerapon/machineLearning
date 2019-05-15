@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <vector>
-#include "Matrix.h"
+#include "../headers/Matrix.h"
 
 class Neuron {
     Matrix matrix_, b_;

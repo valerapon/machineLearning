@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-#include "Neuron.h"
+#include "../headers/Neuron.h"
 
 Neuron::Neuron() {}
 
