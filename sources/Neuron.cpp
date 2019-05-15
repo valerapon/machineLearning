@@ -6,7 +6,7 @@
 Neuron::Neuron() {}
 
 Neuron::Neuron(int row, int col) {
-    matrix_ = Matrix(3, 3);
+    matrix_ = Matrix(row, col);
     b_ = Matrix(row, 1);
 }
 
