@@ -1,6 +1,9 @@
-# machineLearning  
-  
+### How to compile:  
+<code>make</code>  
+### How to run:  
+<code>./bin/main</code>  
 ### Input format:  
+```
 count of vectors:  
 3  
 size of vector x:  
@@ -17,10 +20,9 @@ y vectors:
 10  
 x test:  
 1 1 1 1  
-  
+```    
 ### Output format:  
+```
 vector y:  
 0.8 0.7 (for example)  
-
-### Addition information:
-In "tmp" folder locate compiled file "main" and example of input data "input.txt"  
+```  
