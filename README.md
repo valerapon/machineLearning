@@ -16,14 +16,15 @@ x vectors:
 1 1 1 0  
 0 0 0 1  
 y vectors:  
-00  
-01  
-10  
+0 0  
+0 1  
+1 0  
 x test:  
 1 1 1 1  
 ```    
 ### Output format:  
 ```
 vector y:  
-0.8 0.7 (for example)  
+0.0662457
+0.234795  
 ```  
