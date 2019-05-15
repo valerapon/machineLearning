@@ -5,22 +5,22 @@
 <code>./bin/main</code>  
 ### Input format:  
 ```
-count of vectors:  
-3  
-size of vector x:  
-4  
-size of vector y:  
-2  
-x vectors:  
-0 1 0 1  
-1 1 1 0  
-0 0 0 1  
-y vectors:  
-0 0  
-0 1  
-1 0  
-x test:  
-1 1 1 1  
+Enter number of vectors:
+3
+Enter size of vectors x:
+4
+Enter size of vectors y:
+2
+Enter x vectors:
+0 1 0 1
+1 1 1 0
+0 0 0 1
+Enter y vectors:
+0 0
+0 1
+1 0
+Enter x test vector:
+1 1 1 1
 ```    
 ### Output format:  
 ```
